@@ -1,5 +1,9 @@
-module.exports = {
+// next.config.js
+const nextConfig ={
     images: {
-        unoptimized: true
-    }
+        loader: 'akamai',
+        path: '/',
+    },
 }
+
+module.exports = nextConfig;
