@@ -37,12 +37,10 @@ export default function Page({ allPostsData }) {
                 <Link href="/">Back to home</Link>
             </h2>
 
-            <Image
-                src="/images/profile.jpg" // Route of the image file
-                height={256} // Desired size with correct aspect ratio
-                width={256} // Desired size with correct aspect ratio
-                alt="Your Name"
-            />
+            <img src="/images/profile.jpg" // Route of the image file
+                 height={256} // Desired size with correct aspect ratio
+                 width={256} // Desired size with correct aspect ratio
+                 alt="Your Name" />
 
             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
                 <h2 className={utilStyles.headingLg}>Blog</h2>
