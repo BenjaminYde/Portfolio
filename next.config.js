@@ -12,14 +12,23 @@ if (isGithubActions) {
     basePath = `/${repo}`
 }
 
-module.exports = {
+/*
+const withNextOptimizedImages = require('next-optimized-images');
+
+module.exports = withNextOptimizedImages(
+    {
+        assetPrefix: assetPrefix,
+        basePath: basePath,
+        handleImages: ['jpeg', 'png', 'gif'],
+    });
+*/
+
+
+const withOptimizedImages = require('next-optimized-images');
+
+module.exports = withOptimizedImages({
     assetPrefix: assetPrefix,
     basePath: basePath,
-/*    images: {
-        loader: 'akamai',
-        path: '/',
-    },*/
-    images: {
-        unoptimized: true
-    }
-};
+    handleImages: ['jpeg', 'png', 'gif'],
+    optimizeImagesInDev: true
+});
