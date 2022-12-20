@@ -8,9 +8,7 @@ const Footer = () => {
                 <div className={styles.outer}></div>
 
                 <div className={styles.inner}>
-
                     <h1>Get in touch!</h1>
-
                     <div className={styles.sectionsSplits}>
 
                         <section>
