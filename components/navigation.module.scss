@@ -11,6 +11,7 @@ $link-hover-color: #f88233e1;
     padding: 0;
     height: $nav-height;
     z-index: 100;
+    font-family: "Mona Sans";
 }
 
 .navOuter{
@@ -32,9 +33,6 @@ $link-hover-color: #f88233e1;
     color: #fff;
     background-color: $link-hover-color;
     float: left;
-    /*
-    font-family: "Mona Sans";
-    */
     font-size: 1.5em;
     line-height: $nav-height;
     padding-left: 2em;
@@ -46,9 +44,6 @@ $link-hover-color: #f88233e1;
     float: right;
     margin: ($nav-height - $nav-item-height)/2;
     padding: 0;
-    /*
-    font-family: "Mona Sans";
-    */
     font-size: 1.25em;
     vertical-align: middle;
 }
@@ -71,8 +66,11 @@ $link-hover-color: #f88233e1;
     border-radius: 1px;
     color: #fff;
     background-color: $link-hover-color;
-}
 
+    &:after {
+        content: " ;";
+    }
+}
 
 .underlineItem {
     position: relative;

@@ -32,6 +32,7 @@ const Navigation = () => {
                         </Link>
                     ))}
                 </div>
+                <div className={styles.navOuter}></div>
             </nav>
         </>
     );

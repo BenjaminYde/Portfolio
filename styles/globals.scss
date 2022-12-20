@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Mona Sans';
+  src: url('../fonts/mona_sans/Mona-Sans.ttf')
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 800px;
+  max-width: 1280px;
+  background-color: #222;
+  overflow-x: hidden;
+  margin: auto;
+}

@@ -1,5 +1,3 @@
-import Navigation from '../components/navigation';
-
 import Head from "next/head";
 
 export default function Page() {
@@ -7,9 +5,7 @@ export default function Page() {
       <div>
         <Head>
           <title>Home</title>
-          <link rel="icon" href="/images/tab_icon.ico" />
         </Head>
-        <Navigation />
       </div>
   );
 }
