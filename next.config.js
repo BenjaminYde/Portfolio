@@ -3,5 +3,5 @@ module.exports = {
         unoptimized: true,
     },
     assetPrefix: '/',
-    basePath: '/benjaminyde.github.io/portfolio.nextjs'
+    basePath: '/benjaminyde.github.io/portfolio'
 }
