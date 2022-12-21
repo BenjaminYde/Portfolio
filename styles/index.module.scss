@@ -1,0 +1,128 @@
+// about me
+
+$color-font-title1: #f88233e1;
+$color-font-title2: #fff;
+$color-font-desc: #fff;
+
+.container{
+  margin: 0;
+}
+
+.aboutMeContainer {
+  color: #fff;
+  min-height: 25em;
+}
+
+.bodyLeft {
+  width: 60%;
+  float: left;
+}
+
+.bodyRight {
+  width: 40%;
+  float: right;
+}
+
+.title1 {
+  color: $color-font-title1;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.title21 {
+  color: $color-font-title2;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.title22 {
+  margin-top: 10px;
+  color: #fff;
+  font-size: 1.75em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.emptySpace {
+  height: 45px;
+}
+
+.description {
+  color: $color-font-desc;
+  font-size: 1.5em;
+  width: 100%;
+}
+
+.profilePicture {
+  border-radius: 50%;
+  width: 350px;
+  border: 4px solid #ddd;
+  margin-left: auto;
+  vertical-align: middle;
+  margin-right: 0;
+  float: right;
+}
+
+// tags
+
+$color-tag: #333;
+$color-tag-hover: #d86214;
+
+.tagCollection {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: inline-block;
+  width: 100%;
+}
+
+.tagCollectionHeader {
+  padding: 0;
+  margin: 0;
+  font-family: "Mona Sans";
+  color: #333;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.tags ul {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  font-family: "Mona Sans";
+}
+
+.tags li {
+  display: block;
+  position: sticky;
+  float:left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background: $color-tag;
+  color: #fff;
+  line-height: 1em;
+  padding: 1em;
+  padding-left: 1.5em;
+  text-decoration: none;
+  font-size: 1em;
+
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+.tags li:hover,
+.tags li:hover:before {
+  background: $color-tag-hover;
+}
+
+.tags li:before {
+  position: absolute;
+  content: '°';
+  font-size: 35px;
+  top: 24px;
+  left: 5px;
+  margin-right: 5px;
+}

@@ -1,40 +1,31 @@
+@import "../styles/global.module";
+
 $nav-background: #fff;
 $nav-font-color: #444444;
 $link-hover-color: #f88233e1;
 $footer-rights-height: 50px;
-$footer-inner-height: 350px;
-$footer-height: 425px;
+$footer-height: 325px;
 
 .footer {
   height: $footer-height;
   bottom: 0;
-  position: relative;
-  font-family: "Mona Sans";
-  z-index:-100;
 }
 
 .footer h2 {
   font-size: 1.25em;
 }
 
-.outer
+.footerTop
 {
   border-top: 10px solid #555;
-  background-color: #fff;
-  height: calc($footer-height - $footer-rights-height - 10px);
-  width: 100%;
-  position: fixed;
-  left: 0;
 }
 
 .inner
 {
-  position: absolute;
   top: 0;
   height: 100%;
   width: 100%;
   z-index: 100;
-  padding: 20px;
   font-size: 1.25em;
 }
 
@@ -68,24 +59,17 @@ $footer-height: 425px;
   background-color: #333;
   height: $footer-rights-height;
   width: 100%;
-  position: fixed;
-  left: 0;
-  margin-top: calc($footer-height - $footer-rights-height);
 }
 
 .rights
 {
-  position: absolute;
   margin: 0;
   padding: 0;
-  left: 0;
   width: 100%;
   height: $footer-rights-height;
   line-height: $footer-rights-height;
-  z-index: 100;
   color: #fff;
   text-align: center;
-  bottom: 0;
 }
 
 .icon

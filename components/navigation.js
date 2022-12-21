@@ -1,5 +1,6 @@
 import Link from "next/link";
-import styles from "./navigation.module.scss"
+import stylesNav from "./navigation.module.scss"
+import stylesGlobal from "../styles/global.module.scss";
 import { useRouter } from 'next/router';
 
 const MENU_LIST = [
@@ -13,28 +14,27 @@ const Navigation = () => {
     const router = useRouter();
 
     return (
-        <>
-            <nav className={styles.nav}>
+        <div className={stylesGlobal.backgroundWhite}>
+            <nav className={`${stylesNav.nav} ${stylesGlobal.wrapper}`}>
                 {/* brand */}
-                <div className={styles.brand}>
+                <div className={stylesNav.brand}>
                     <a>Benjamin Yde</a>
                 </div>
                 {/* nav items */}
-                <div className={styles.navItemContainer}>
+                <div className={stylesNav.navItemContainer}>
                     {MENU_LIST.map((menu, idx) => (
                         <Link
                             href={menu.href}
                             className={`
-                                ${styles.navItem} 
-                                ${router.pathname === menu.href ? styles.active : styles.underlineItem}`}
+                                ${stylesNav.navItem} 
+                                ${router.pathname === menu.href ? stylesNav.active : stylesNav.underlineItem}`}
                         >
                             {menu.text}
                         </Link>
                     ))}
                 </div>
-                <div className={styles.navOuter}></div>
             </nav>
-        </>
+        </div>
     );
 };
 
