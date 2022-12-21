@@ -17,7 +17,7 @@ const Navigation = () => {
             <nav className={styles.nav}>
                 {/* brand */}
                 <div className={styles.brand}>
-                    <a>Benjamin Yde2</a>
+                    <a>Benjamin Yde</a>
                 </div>
                 {/* nav items */}
                 <div className={styles.navItemContainer}>
