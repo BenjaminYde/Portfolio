@@ -6,6 +6,8 @@ export default function Page() {
         <Head>
           <title>Home</title>
         </Head>
+
+
       </div>
   );
 }

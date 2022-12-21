@@ -13,6 +13,10 @@ $footer-height: 425px;
   z-index:-100;
 }
 
+.footer h2 {
+  font-size: 1.25em;
+}
+
 .outer
 {
   border-top: 10px solid #555;
@@ -48,7 +52,7 @@ $footer-height: 425px;
   min-width: 250px;
   width: 25%;
   margin-left: 9%;
-  border-right: 2px solid #444;
+  border-right: 3px solid #444;
 }
 
 .sectionsSplits section:first-of-type{

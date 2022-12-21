@@ -12,20 +12,20 @@ const Footer = () => {
                     <div className={styles.sectionsSplits}>
 
                         <section>
-                            <h1>Address</h1>
+                            <h2>Address</h2>
                             <span>Belgium Izegem</span>
                         </section>
 
                         <section>
-                            <h1>Email</h1>
+                            <h2>Email</h2>
                             <span>benjamin.yde@gmail.com</span>
 
-                            <h1>Phone</h1>
+                            <h2>Phone</h2>
                             <span>+32 470 35 11 67</span>
                         </section>
 
                         <section>
-                            <h1>Socials</h1>
+                            <h2>Socials</h2>
                             <a href="https://github.com/BenjaminYde">
                                 <img className={styles.icon} src="images/icons/github_black.png"/>
                             </a>
