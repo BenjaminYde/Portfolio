@@ -2,14 +2,15 @@
  * @type {import('next').NextConfig}
  */
 
-const isProd = process.env.NODE_ENV === 'production'
+const basePath = process.env.NODE_ENV === 'production' ? 'https://github.com/BenjaminYde/portfolio' : '';
 
 const nextConfig   = {
     images: {
         loader: 'akamai',
         path: '',
     },
-    assetPrefix: isProd ? './' : '',
+    basePath,
+    assetPrefix: `${basePath}/`
 };
 
 export default   nextConfig;
