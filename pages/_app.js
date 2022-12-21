@@ -7,7 +7,7 @@ export default function App({Component, pageProps}) {
     return (
         <>
             <Head>
-                <link rel="icon" href="/images/icons/tab_icon.ico"/>
+                <link rel="icon" href="images/icons/tab_icon.ico"/>
             </Head>
             <Navigation/>
             <Component {...pageProps} />
