@@ -4,7 +4,7 @@ import stylesGlobal from "../styles/global.module.scss";
 import { useRouter } from 'next/router';
 
 const MENU_LIST = [
-    { text: "Home", href: "/home" },
+    { text: "Home", href: "/" },
     { text: "Guides", href: "/guides" },
     { text: "Blog", href: "/blog" },
     { text: "About", href: "/about" },
