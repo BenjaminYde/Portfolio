@@ -9,6 +9,10 @@ export default function App({Component, pageProps}) {
             <Head>
                 <link rel="stylesheet" href="/fonts/global_fonts.css"/>
                 <link rel="icon" href="/images/icons/tab_icon.ico"/>
+{/*
+                <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
+*/}
+                <meta name="viewport" content="viewport-fit=cover" />
             </Head>
             <Navigation/>
             <Component {...pageProps} />
