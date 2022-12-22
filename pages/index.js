@@ -43,89 +43,97 @@ export default function Page() {
                   {/* header */}
                   <div className={stylesGlobal.whitespaceMedium}></div>
                   <div className={stylesGlobal.HeaderOrange}>Technical Skills</div>
-                  <div className={stylesGlobal.whitespaceSmall}></div>
-                  {/* tags */}
-                  <div className={stylesIndex.tagCollection}>
-                      <div className={stylesIndex.tagCollectionHeader}>Main Skills</div>
-                      <div className={stylesIndex.tags}>
-                          <ul>
-                              <li>C#</li>
-                              <li>Procedural 3D - Houdini</li>
-                              <li>Unity</li>
-                              <li>Gameplay Programming</li>
-                              <li>DOTS</li>
-                              <li>UI / UX</li>
-                              <li>WPF</li>
-                              <li>Unit Testing</li>
-                              <li>CI / CD</li>
-                              <li>Python</li>
-                              <li>Release Management</li>
-                              <li>3D Optimalization</li>
-                              <li>Unity Pixyz</li>
-                              <li>Level Design</li>
-                          </ul>
+                  <div className={stylesGlobal.whitespaceRegular}></div>
+
+                  <div className={stylesIndex.tagGrid}>
+                      {/* tags */}
+                      <div className={stylesIndex.tagCollection}>
+                          <div className={stylesIndex.tagCollectionHeader}>Main Skills</div>
+                          <div className={stylesIndex.tags}>
+                              <ul>
+                                  <li>C#</li>
+                                  <li>Procedural 3D - Houdini</li>
+                                  <li>Unity</li>
+                                  <li>Gameplay Programming</li>
+                                  <li>DOTS</li>
+                                  <li>UI / UX</li>
+                                  <li>WPF</li>
+                                  <li>Unit Testing</li>
+                                  <li>CI / CD</li>
+                                  <li>Python</li>
+                                  <li>Release Management</li>
+                                  <li>3D Optimalization</li>
+                                  <li>Unity Pixyz</li>
+                                  <li>Level Design</li>
+                              </ul>
+                          </div>
                       </div>
-                  </div>
-                  {/* tags */}
-                  <div className={stylesIndex.tagCollection}>
-                      <div className={stylesIndex.tagCollectionHeader}>Current Interests</div>
-                      <div className={stylesIndex.tags}>
-                          <ul>
-                              <li>C++</li>
-                              <li>Unreal Engine</li>
-                              <li>CMake</li>
-                              <li>Vulkan API</li>
-                              <li>Game Programming</li>
-                          </ul>
+
+                      {/* tags */}
+                      <div className={stylesIndex.tagCollection}>
+                          <div className={stylesIndex.tagCollectionHeader}>Tools Im Used To</div>
+                          <div className={stylesIndex.tags}>
+                              <ul>
+                                  <li>Git</li>
+                                  <li>Tortoise Git</li>
+                                  <li>Fork</li>
+                                  <li>Github</li>
+                                  <li>Azure Devops</li>
+                                  <li>Photoshop</li>
+                                  <li>MS Office</li>
+                                  <li>Visual Studio</li>
+                                  <li>Jetbrains Rider</li>
+                                  <li>Jetbrains CLion</li>
+                                  <li>Jetbrains Webstorm</li>
+                                  <li>Monday.com</li>
+                              </ul>
+                          </div>
                       </div>
-                  </div>
-                  {/* tags */}
-                  <div className={stylesIndex.tagCollection}>
-                      <div className={stylesIndex.tagCollectionHeader}>Tools Im Used To</div>
-                      <div className={stylesIndex.tags}>
-                          <ul>
-                              <li>Git</li>
-                              <li>Tortoise Git</li>
-                              <li>Fork</li>
-                              <li>Github</li>
-                              <li>Azure Devops</li>
-                              <li>Monday.com</li>
-                              <li>Photoshop</li>
-                              <li>MS Office</li>
-                              <li>Visual Studio</li>
-                              <li>Jetbrains Rider</li>
-                              <li>Jetbrains CLion</li>
-                              <li>Jetbrains Webstorm</li>
-                          </ul>
+
+                      {/* tags */}
+                      <div className={stylesIndex.tagCollection}>
+                          <div className={stylesIndex.tagCollectionHeader}>Current Interests</div>
+                          <div className={stylesIndex.tags}>
+                              <ul>
+                                  <li>C++</li>
+                                  <li>Unreal Engine</li>
+                                  <li>CMake</li>
+                                  <li>Vulkan API</li>
+                                  <li>Game Programming</li>
+                              </ul>
+                          </div>
                       </div>
-                  </div>
-                  {/* tags */}
-                  <div className={stylesIndex.tagCollection}>
-                      <div className={stylesIndex.tagCollectionHeader}>Minor Skills</div>
-                      <div className={stylesIndex.tags}>
-                          <ul>
-                              <li>Photogrammetry</li>
-                              <li>Blender</li>
-                              <li>HTML</li>
-                              <li>CSS</li>
-                              <li>Next JS</li>
-                              <li>React</li>
-                              <li>Substance Designer</li>
-                              <li>Substance Painter</li>
-                          </ul>
+
+                      {/* tags */}
+                      <div className={stylesIndex.tagCollection}>
+                          <div className={stylesIndex.tagCollectionHeader}>Minor Skills</div>
+                          <div className={stylesIndex.tags}>
+                              <ul>
+                                  <li>Photogrammetry</li>
+                                  <li>Blender</li>
+                                  <li>HTML</li>
+                                  <li>CSS</li>
+                                  <li>Next JS</li>
+                                  <li>React</li>
+                                  <li>Substance Designer</li>
+                                  <li>Substance Painter</li>
+                              </ul>
+                          </div>
                       </div>
+                      {/* tags */}
+{/*                      <div className={stylesIndex.tagCollection}>
+                          <div className={stylesIndex.tagCollectionHeader}>Hobbies</div>
+                          <div className={stylesIndex.tags}>
+                              <ul>
+                                  <li>DJ'ing</li>
+                                  <li>Freestyle Ice Skating</li>
+                                  <li>Organizing Cocktail Workshops</li>
+                              </ul>
+                          </div>
+                      </div>*/}
+
                   </div>
-                  {/* tags */}
-                  <div className={stylesIndex.tagCollection}>
-                      <div className={stylesIndex.tagCollectionHeader}>Hobbies</div>
-                      <div className={stylesIndex.tags}>
-                          <ul>
-                              <li>DJ'ing</li>
-                              <li>Freestyle Ice Skating</li>
-                              <li>Organizing Cocktail Workshops</li>
-                          </ul>
-                      </div>
-                  </div>
+
                   <div className={stylesGlobal.whitespaceRegular}></div>
               </div>
           </div>
@@ -214,6 +222,8 @@ export default function Page() {
                   </div>
               </div>
 
+              <div className={stylesThumbnail.projectSectionEnd}></div>
+
               {/* projects programming*/}
 
               {/* header */}
@@ -236,6 +246,8 @@ export default function Page() {
                       </div>
                   </div>
               </div>
+
+              <div className={stylesThumbnail.projectSectionEnd}></div>
 
               {/* job experience */}
 
