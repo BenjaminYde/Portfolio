@@ -1,9 +1,4 @@
-.container {
-  max-width: 1070px;
-  margin: 0 auto;
-}
-
-.projects-grid {
+.projectsGrid {
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -20,7 +15,7 @@
   position: relative;
 }
 
-.project-image {
+.projectImage {
   width: 100%;
   box-sizing: border-box;
   display: flex;
@@ -31,7 +26,7 @@
   border-width: 4px;
 }
 
-.project-button-read-more {
+.projectButtonReadMore {
   width: 40%;
   height: 30px;
   background-color: #f88233b4;
@@ -43,7 +38,7 @@
   right: 4px;
 }
 
-.project-title {
+.projectTitle {
   font-size: 1.5em;
   font-weight: bold;
   height: 50px;
@@ -78,7 +73,7 @@
   left: 5px;
 }
 
-.project-section-end{
+.projectSectionEnd{
   width: 80%;
   margin-left: 10%;
   height: 2px;

@@ -1,6 +1,7 @@
 import Head from "next/head";
 import stylesGlobal from "../styles/global.module.scss";
 import stylesIndex from "../styles/index.module.scss";
+import stylesThumbnail from "../styles/thumbnail.module.scss";
 
 export default function Page() {
   return (
@@ -126,6 +127,35 @@ export default function Page() {
                   </div>
                   <div className={stylesGlobal.whitespaceRegular}></div>
               </div>
+          </div>
+
+          {/* section - projects */}
+          <div className={`${stylesGlobal.wrapper}`}>
+
+              {/* header */}
+              <div className={stylesGlobal.whitespaceMedium}></div>
+              <div className={stylesGlobal.HeaderOrange}>3D Art Projects</div>
+              <div className={stylesGlobal.whitespaceSmall}></div>
+
+              {/* projects */}
+              <div className={stylesThumbnail.projectsGrid}>
+
+                  <div className={stylesThumbnail.project}>
+                      <img src="/projects/steelmill-environment/Steelmill.gif"
+                           className={stylesThumbnail.projectImage}/>
+                      <div className={stylesThumbnail.projectButtonReadMore}>Read More</div>
+                      <div className={stylesThumbnail.projectTitle}>Steelmill Environment</div>
+                      <div className={stylesThumbnail.badges}>
+                          <span>UE4</span>
+                          <span>Level Design</span>
+                          <span>Gameplay</span>
+                          <span>Blueprint</span>
+                          <span>Unreal Tournament</span>
+                      </div>
+                  </div>
+              </div>
+
+              <div className={stylesGlobal.whitespaceRegular}></div>
           </div>
       </>
   );
