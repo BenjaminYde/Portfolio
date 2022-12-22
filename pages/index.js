@@ -31,7 +31,7 @@ export default function Page() {
                   </div>
                   {/* profile picture */}
                   <div className={stylesIndex.bodyRight}>
-                      <img className={stylesIndex.profilePicture} src="images/profile_picture.jpg"/>
+                      <img className={stylesIndex.profilePicture} src="./images/profile_picture.jpg"/>
                   </div>
               </div>
               <div className={stylesGlobal.whitespaceRegular}></div>
