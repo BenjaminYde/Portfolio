@@ -3,7 +3,7 @@ import stylesGlobal from "../styles/global.module.scss";
 
 const Footer = () => {
     return (
-        <div className={`${stylesGlobal.backgroundWhite} ${stylesFooter.footerTop}`}>
+        <div className={`${stylesFooter.footerBackground} ${stylesFooter.footerTop}`}>
 
             <div className={`${stylesFooter.footer} ${stylesGlobal.wrapper}`}>
 
@@ -27,7 +27,7 @@ const Footer = () => {
                         <section>
                             <h2>Socials</h2>
                             <a href="https://github.com/BenjaminYde">
-                                <img className={stylesFooter.icon} src="images/icons/github_black.png"/>
+                                <img className={stylesFooter.icon} src="images/icons/github_white.png"/>
                             </a>
                             <a href="https://www.linkedin.com/in/benjamin-yde-2b5092171/">
                                 <img className={stylesFooter.icon} src="images/icons/linked-in.png"/>

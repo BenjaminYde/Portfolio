@@ -1,14 +1,28 @@
 @import "../styles/global.module";
 
 $nav-background: #fff;
-$nav-font-color: #444444;
-$link-hover-color: #f88233e1;
+$nav-font-color: #fff;
+$font-color: #fff;
 $footer-rights-height: 50px;
-$footer-height: 325px;
+$footer-height: 275px;
+$footer-color-border-top: #555;
+$footer-color-border-bottom: #1B1B1B;
 
 .footer {
   height: $footer-height;
   bottom: 0;
+}
+
+.footerBackground{
+  background-image:
+          url("/images/footer_background.jpg");
+  background-repeat: repeat;
+  background-position: center;
+}
+
+.footer h1 {
+  margin-top: 40px;
+  color: #fff;
 }
 
 .footer h2 {
@@ -17,7 +31,7 @@ $footer-height: 325px;
 
 .footerTop
 {
-  border-top: 10px solid #555;
+  border-top: 10px solid $footer-color-border-top;
 }
 
 .inner
@@ -26,7 +40,8 @@ $footer-height: 325px;
   height: 100%;
   width: 100%;
   z-index: 100;
-  font-size: 1.25em;
+  font-size: 1.1em;
+  color: $font-color;
 }
 
 .sectionsSplits
@@ -43,7 +58,7 @@ $footer-height: 325px;
   min-width: 250px;
   width: 25%;
   margin-left: 9%;
-  border-right: 3px solid #444;
+  border-right: 2px solid #444;
 }
 
 .sectionsSplits section:first-of-type{
@@ -56,7 +71,7 @@ $footer-height: 325px;
 
 .rightsOuter
 {
-  background-color: #333;
+  background-color: $footer-color-border-bottom;
   height: $footer-rights-height;
   width: 100%;
 }
