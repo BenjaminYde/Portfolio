@@ -11,6 +11,15 @@ const nextConfig   = {
     },
     basePath: isProduction ? '/portfolio' : '',
     assetPrefix: isProduction ? '/portfolio/' : './',
+    async redirects() {
+        return [
+            {
+                source: '/',
+                destination: '/home',
+                permanent: true,
+            },
+        ]
+    }
 };
 
 export default   nextConfig;

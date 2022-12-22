@@ -1,7 +1,6 @@
 import Head from "next/head";
 import stylesGlobal from "../styles/global.module.scss";
 import stylesIndex from "../styles/index.module.scss";
-import Image from "next/image";
 
 export default function Page() {
   return (
