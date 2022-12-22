@@ -9,8 +9,8 @@ const nextConfig   = {
         loader: 'akamai',
         path: '',
     },
-    basePath: isProduction ? '/portfolio' : '',
-    assetPrefix: isProduction ? '/portfolio/' : './',
+    basePath: '',
+    assetPrefix: './',
     async redirects() {
         return [
             {
