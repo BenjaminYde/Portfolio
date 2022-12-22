@@ -8,7 +8,7 @@ export default function App({Component, pageProps}) {
         <>
             <Head>
                 <link rel="stylesheet" href="/fonts/global_fonts.css"/>
-                <link rel="icon" href="/images/icons/tab_icon.ico"/>
+                <link rel="icon" href="./images/icons/tab_icon.ico"/>
             </Head>
             <Navigation/>
             <Component {...pageProps} />
