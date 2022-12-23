@@ -1,7 +1,11 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "~bootstrap/scss/bootstrap";
+
 body {
   margin: 0;
   padding: 0;
-  background-color: #222;
+  background-color: $dark;
   overflow-x: hidden;
   font-family: "Mona Sans", serif;
 }

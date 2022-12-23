@@ -1,7 +1,7 @@
-import "../styles/globals.scss";
 import Head from "next/head";
 import Navigation from "../components/navigation";
 import Footer from "../components/footer";
+import "../styles/globals.scss";
 
 export default function App({Component, pageProps}) {
     return (

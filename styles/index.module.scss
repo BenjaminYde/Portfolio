@@ -4,65 +4,59 @@ $color-font-title1: #f88233e1;
 $color-font-title2: #fff;
 $color-font-desc: #fff;
 
-.container{
-  margin: 0;
-}
-
 .aboutMeContainer {
   color: #fff;
-  min-height: 25em;
-}
+  display: flex;
 
-.bodyLeft {
-  width: 60%;
-  float: left;
-}
+  .bodyLeft {
+    width: 60%;
+  }
 
-.bodyRight {
-  width: 40%;
-  float: right;
-}
+  .bodyRight {
+    width: 40%;
+  }
 
-.title1 {
-  color: $color-font-title1;
-  font-size: 2.5em;
-  text-transform: uppercase;
-  font-weight: bold;
-}
+  .title1 {
+    color: $color-font-title1;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
 
-.title21 {
-  color: $color-font-title2;
-  font-size: 2.5em;
-  text-transform: uppercase;
-  font-weight: bold;
-}
+  .title21 {
+    color: $color-font-title2;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
 
-.title22 {
-  margin-top: 10px;
-  color: #fff;
-  font-size: 1.75em;
-  text-transform: uppercase;
-  font-weight: bold;
-}
+  .title22 {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 1.75em;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
 
-.emptySpace {
-  height: 45px;
-}
+  .emptySpace {
+    height: 45px;
+  }
 
-.description {
-  color: $color-font-desc;
-  font-size: 1.5em;
-  width: 100%;
-}
+  .description {
+    color: $color-font-desc;
+    font-size: 1.5em;
+    width: 100%;
+  }
 
-.profilePicture {
-  border-radius: 50%;
-  width: 350px;
-  border: 4px solid #ddd;
-  margin-left: auto;
-  vertical-align: middle;
-  margin-right: 0;
-  float: right;
+  .profilePicture {
+    border-radius: 50%;
+    width: 350px;
+    border: 4px solid #ddd;
+    margin-left: auto;
+    vertical-align: middle;
+    margin-right: 0;
+    float: right;
+  }
 }
 
 // skills
@@ -136,7 +130,7 @@ $color-tag-hover: #d86214;
   position: absolute;
   content: '°';
   font-size: 35px;
-  top: 20px;
-  left: 5px;
+  top: 24px;
+  left: 8px;
   margin-right: 5px;
 }

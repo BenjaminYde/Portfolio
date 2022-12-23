@@ -2,6 +2,7 @@ import Head from "next/head";
 import stylesGlobal from "../styles/global.module.scss";
 import stylesIndex from "../styles/index.module.scss";
 import stylesThumbnail from "../styles/thumbnail.module.scss";
+import Link from "next/link";
 
 export default function Page() {
   return (
@@ -34,7 +35,7 @@ export default function Page() {
                       <img className={stylesIndex.profilePicture} src="./images/profile_picture.jpg"/>
                   </div>
               </div>
-              <div className={stylesGlobal.whitespaceRegular}></div>
+              <div className={stylesGlobal.whitespaceMedium}></div>
           </div>
 
           {/* section - skills */}
@@ -152,9 +153,16 @@ export default function Page() {
               <div className={stylesThumbnail.projectsGrid}>
 
                   <div className={stylesThumbnail.project}>
-                      <img src="/projects/steelmill-environment/Steelmill.gif"
-                           className={stylesThumbnail.projectImage}/>
-                      <div className={stylesThumbnail.projectButtonReadMore}>Read More (soon)</div>
+                      <Link href={"/"}
+                          className={stylesThumbnail.projectImageButtonContainer}>
+                          <img src="/projects/steelmill-environment/Steelmill.gif"
+                               className={`${stylesThumbnail.projectImage}`}/>
+                          <div className={stylesThumbnail.projectImageButton}>
+                              <div className={stylesThumbnail.projectImageButtonText}>
+                                  Read More
+                              </div>
+                          </div>
+                      </Link>
                       <div className={stylesThumbnail.projectTitle}>Steelmill Environment</div>
                       <div className={stylesThumbnail.badges}>
                           <span>UE4</span>
@@ -166,9 +174,16 @@ export default function Page() {
                   </div>
 
                   <div className={stylesThumbnail.project}>
-                      <img src="/projects/trifox/Thumbnail.jpg"
-                           className={stylesThumbnail.projectImage}/>
-                      <div className={stylesThumbnail.projectButtonReadMore}>Read More (soon)</div>
+                      <Link href={"/"}
+                            className={stylesThumbnail.projectImageButtonContainer}>
+                          <img src="/projects/trifox/Thumbnail.jpg"
+                               className={`${stylesThumbnail.projectImage}`}/>
+                          <div className={stylesThumbnail.projectImageButton}>
+                              <div className={stylesThumbnail.projectImageButtonText}>
+                                  Read More
+                              </div>
+                          </div>
+                      </Link>
                       <div className={stylesThumbnail.projectTitle}>Trifox Game</div>
                       <div className={stylesThumbnail.badges}>
                           <span>Unity</span>
@@ -178,9 +193,16 @@ export default function Page() {
                   </div>
 
                   <div className={stylesThumbnail.project}>
-                      <img src="/projects/slums-evironment/Thumbnail.jpg"
-                           className={stylesThumbnail.projectImage}/>
-                      <div className={stylesThumbnail.projectButtonReadMore}>Read More (soon)</div>
+                      <Link href={"/"}
+                            className={stylesThumbnail.projectImageButtonContainer}>
+                          <img src="/projects/slums-evironment/Thumbnail.jpg"
+                               className={`${stylesThumbnail.projectImage}`}/>
+                          <div className={stylesThumbnail.projectImageButton}>
+                              <div className={stylesThumbnail.projectImageButtonText}>
+                                  Read More
+                              </div>
+                          </div>
+                      </Link>
                       <div className={stylesThumbnail.projectTitle}>Slums Environment</div>
                       <div className={stylesThumbnail.badges}>
                           <span>UE4</span>
@@ -189,9 +211,16 @@ export default function Page() {
                   </div>
 
                   <div className={stylesThumbnail.project}>
-                      <img src="/projects/project-titan/Pipetool-thumbnail.jpg"
-                           className={stylesThumbnail.projectImage}/>
-                      <div className={stylesThumbnail.projectButtonReadMore}>Read More (soon)</div>
+                      <Link href={"/"}
+                            className={stylesThumbnail.projectImageButtonContainer}>
+                          <img src="/projects/project-titan/Pipetool-thumbnail.jpg"
+                               className={`${stylesThumbnail.projectImage}`}/>
+                          <div className={stylesThumbnail.projectImageButton}>
+                              <div className={stylesThumbnail.projectImageButtonText}>
+                                  Read More
+                              </div>
+                          </div>
+                      </Link>
                       <div className={stylesThumbnail.projectTitle}>Procedural Pipes System</div>
                       <div className={stylesThumbnail.badges}>
                           <span>Houdini</span>
@@ -200,9 +229,16 @@ export default function Page() {
                   </div>
 
                   <div className={stylesThumbnail.project}>
-                      <img src="/projects/cudeman-hunting-knife/Thumbnail.jpg"
-                           className={stylesThumbnail.projectImage}/>
-                      <div className={stylesThumbnail.projectButtonReadMore}>Read More (soon)</div>
+                      <Link href={"/"}
+                            className={stylesThumbnail.projectImageButtonContainer}>
+                          <img src="/projects/cudeman-hunting-knife/Thumbnail.jpg"
+                               className={`${stylesThumbnail.projectImage}`}/>
+                          <div className={stylesThumbnail.projectImageButton}>
+                              <div className={stylesThumbnail.projectImageButtonText}>
+                                  Read More
+                              </div>
+                          </div>
+                      </Link>
                       <div className={stylesThumbnail.projectTitle}>Cudeman Hunting Knife</div>
                       <div className={stylesThumbnail.badges}>
                           <span>3dsMax</span>
@@ -212,9 +248,16 @@ export default function Page() {
                   </div>
 
                   <div className={stylesThumbnail.project}>
-                      <img src="/projects/procedural-house/Thumbnail.jpg"
-                           className={stylesThumbnail.projectImage}/>
-                      <div className={stylesThumbnail.projectButtonReadMore}>Read More (soon)</div>
+                      <Link href={"/"}
+                            className={stylesThumbnail.projectImageButtonContainer}>
+                          <img src="/projects/procedural-house/Thumbnail.jpg"
+                               className={`${stylesThumbnail.projectImage}`}/>
+                          <div className={stylesThumbnail.projectImageButton}>
+                              <div className={stylesThumbnail.projectImageButtonText}>
+                                  Read More
+                              </div>
+                          </div>
+                      </Link>
                       <div className={stylesThumbnail.projectTitle}>Procedural House System</div>
                       <div className={stylesThumbnail.badges}>
                           <span>Houdini</span>
@@ -235,9 +278,16 @@ export default function Page() {
               <div className={stylesThumbnail.projectsGrid}>
 
                   <div className={stylesThumbnail.project}>
-                      <img src="/images/github-profile.jpg"
-                           className={stylesThumbnail.projectImage}/>
-                      <div className={stylesThumbnail.projectButtonReadMore}>Read More (soon)</div>
+                      <Link href={"/"}
+                            className={stylesThumbnail.projectImageButtonContainer}>
+                          <img src="/images/github-profile.jpg"
+                               className={`${stylesThumbnail.projectImage}`}/>
+                          <div className={stylesThumbnail.projectImageButton}>
+                              <div className={stylesThumbnail.projectImageButtonText}>
+                                  Read More
+                              </div>
+                          </div>
+                      </Link>
                       <div className={stylesThumbnail.projectTitle}>Github.com/benjaminyde</div>
                       <div className={stylesThumbnail.badges}>
                           <span>Repositories</span>
@@ -260,9 +310,16 @@ export default function Page() {
               <div className={stylesThumbnail.projectsGrid}>
 
                   <div class={stylesThumbnail.project}>
-                      <img src="/projects/vintecc/Dual-Thumbnail.png"
-                           className={stylesThumbnail.projectImage} />
-                      <div className={stylesThumbnail.projectButtonReadMore}>Read More (soon)</div>
+                      <Link href={"/"}
+                            className={stylesThumbnail.projectImageButtonContainer}>
+                          <img src="/projects/vintecc/Dual-Thumbnail.png"
+                               className={`${stylesThumbnail.projectImage}`}/>
+                          <div className={stylesThumbnail.projectImageButton}>
+                              <div className={stylesThumbnail.projectImageButtonText}>
+                                  Read More
+                              </div>
+                          </div>
+                      </Link>
                       <div className={stylesThumbnail.projectTitle}>Vintecc - Simulation Engineer</div>
                       <div className={stylesThumbnail.badges}>
                           <span>C#</span>
@@ -278,9 +335,16 @@ export default function Page() {
                   </div>
 
                   <div class={stylesThumbnail.project}>
-                      <img src="/projects/trifox/Thumbnail.jpg"
-                           className={stylesThumbnail.projectImage} />
-                      <div className={stylesThumbnail.projectButtonReadMore}>Read More (soon)</div>
+                      <Link href={"/"}
+                            className={stylesThumbnail.projectImageButtonContainer}>
+                          <img src="/projects/trifox/Thumbnail.jpg"
+                               className={`${stylesThumbnail.projectImage}`}/>
+                          <div className={stylesThumbnail.projectImageButton}>
+                              <div className={stylesThumbnail.projectImageButtonText}>
+                                  Read More
+                              </div>
+                          </div>
+                      </Link>
                       <div className={stylesThumbnail.projectTitle}>Trifox Game</div>
                       <div className={stylesThumbnail.badges}>
                           <span>Internship</span>
