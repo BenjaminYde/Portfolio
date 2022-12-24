@@ -53,7 +53,8 @@ export default function Page() {
                           <div className={stylesIndex.tags}>
                               <ul>
                                   <li>C#</li>
-                                  <li>Procedural 3D - Houdini</li>
+                                  <li>Procedural 3D</li>
+                                  <li>Houdini</li>
                                   <li>Unity</li>
                                   <li>Gameplay Programming</li>
                                   <li>DOTS</li>
@@ -66,6 +67,7 @@ export default function Page() {
                                   <li>3D Optimalization</li>
                                   <li>Unity Pixyz</li>
                                   <li>Level Design</li>
+                                  <li>3D Printing</li>
                               </ul>
                           </div>
                       </div>
@@ -101,6 +103,7 @@ export default function Page() {
                                   <li>CMake</li>
                                   <li>Vulkan API</li>
                                   <li>Game Programming</li>
+                                  <li>Shaders</li>
                               </ul>
                           </div>
                       </div>
@@ -142,6 +145,82 @@ export default function Page() {
           {/* section - projects */}
           <div className={`${stylesGlobal.wrapper}`}>
 
+              {/* job experience */}
+
+              {/* header */}
+              <div className={stylesGlobal.whitespaceMedium}></div>
+              <div className={stylesGlobal.HeaderOrange}>Experience</div>
+              <div className={stylesGlobal.whitespaceRegular}></div>
+
+              {/* grid */}
+              <div className={stylesThumbnail.projectsGrid}>
+
+                  <div class={stylesThumbnail.project}>
+                      <Link href={"/"}
+                            className={stylesThumbnail.projectImageButtonContainer}>
+                          <img src="/projects/vintecc/Dual-Thumbnail.png"
+                               className={`${stylesThumbnail.projectImage}`}/>
+                          <div className={stylesThumbnail.projectImageButton}>
+                              <div className={stylesThumbnail.projectImageButtonText}>
+                                  Read More
+                              </div>
+                          </div>
+                      </Link>
+                      <div className={stylesThumbnail.projectTitle}>Vintecc - Simulation Engineer</div>
+                      <div className={stylesThumbnail.badges}>
+                          <span className={stylesThumbnail.highlight}>Job</span>
+                          <span>C#</span>
+                          <span>Unity</span>
+                          <span>WPF</span>
+                          <span>Digital Twin</span>
+                          <span>Machines</span>
+                          <span>Co-Simulation</span>
+                          <span>Physics</span>
+                          <span>Sensors</span>
+                          <span>System Simulations</span>
+                      </div>
+                  </div>
+
+                  <div class={stylesThumbnail.project}>
+                      <Link href={"/"}
+                            className={stylesThumbnail.projectImageButtonContainer}>
+                          <img src="/projects/trifox/Thumbnail.jpg"
+                               className={`${stylesThumbnail.projectImage}`}/>
+                          <div className={stylesThumbnail.projectImageButton}>
+                              <div className={stylesThumbnail.projectImageButtonText}>
+                                  Read More
+                              </div>
+                          </div>
+                      </Link>
+                      <div className={stylesThumbnail.projectTitle}>Trifox Game</div>
+                      <div className={stylesThumbnail.badges}>
+                          <span className={stylesThumbnail.highlight}>Internship</span>
+                          <span>Unity</span>
+                          <span>Level Design</span>
+                          <span>Gameplay</span>
+                      </div>
+                  </div>
+
+                  <div className={stylesThumbnail.project}>
+                      <Link href={"/"}
+                            className={stylesThumbnail.projectImageButtonContainer}>
+                          <img src="/images/github-profile.jpg"
+                               className={`${stylesThumbnail.projectImage}`}/>
+                          <div className={stylesThumbnail.projectImageButton}>
+                              <div className={stylesThumbnail.projectImageButtonText}>
+                                  Read More
+                              </div>
+                          </div>
+                      </Link>
+                      <div className={stylesThumbnail.projectTitle}>Github.com/benjaminyde</div>
+                      <div className={stylesThumbnail.badges}>
+                          <span className={stylesThumbnail.highlight}>Personal</span>
+                          <span>C#</span>
+                          <span>C++</span>
+                      </div>
+                  </div>
+              </div>
+
               {/* projects 3d art*/}
 
               {/* header */}
@@ -176,7 +255,7 @@ export default function Page() {
                   <div className={stylesThumbnail.project}>
                       <Link href={"/"}
                             className={stylesThumbnail.projectImageButtonContainer}>
-                          <img src="/projects/trifox/Thumbnail.jpg"
+                          <img src="/projects/procedural-house/Thumbnail.jpg"
                                className={`${stylesThumbnail.projectImage}`}/>
                           <div className={stylesThumbnail.projectImageButton}>
                               <div className={stylesThumbnail.projectImageButtonText}>
@@ -184,11 +263,9 @@ export default function Page() {
                               </div>
                           </div>
                       </Link>
-                      <div className={stylesThumbnail.projectTitle}>Trifox Game</div>
+                      <div className={stylesThumbnail.projectTitle}>Procedural House System</div>
                       <div className={stylesThumbnail.badges}>
-                          <span>Unity</span>
-                          <span>Level Design</span>
-                          <span>Gameplay</span>
+                          <span>Houdini</span>
                       </div>
                   </div>
 
@@ -250,7 +327,7 @@ export default function Page() {
                   <div className={stylesThumbnail.project}>
                       <Link href={"/"}
                             className={stylesThumbnail.projectImageButtonContainer}>
-                          <img src="/projects/procedural-house/Thumbnail.jpg"
+                          <img src="/projects/procedural-scifi-floor/thumbnail.jpg"
                                className={`${stylesThumbnail.projectImage}`}/>
                           <div className={stylesThumbnail.projectImageButton}>
                               <div className={stylesThumbnail.projectImageButtonText}>
@@ -258,29 +335,17 @@ export default function Page() {
                               </div>
                           </div>
                       </Link>
-                      <div className={stylesThumbnail.projectTitle}>Procedural House System</div>
+                      <div className={stylesThumbnail.projectTitle}>Procedural Scifi Floor</div>
                       <div className={stylesThumbnail.badges}>
                           <span>Houdini</span>
+                          <span>Substance Painter</span>
                       </div>
                   </div>
-              </div>
-
-              <div className={stylesThumbnail.projectSectionEnd}></div>
-
-              {/* projects programming*/}
-
-              {/* header */}
-              <div className={stylesGlobal.whitespaceMedium}></div>
-              <div className={stylesGlobal.HeaderOrange}>Programming Projects</div>
-              <div className={stylesGlobal.whitespaceRegular}></div>
-
-              {/* grid */}
-              <div className={stylesThumbnail.projectsGrid}>
 
                   <div className={stylesThumbnail.project}>
                       <Link href={"/"}
                             className={stylesThumbnail.projectImageButtonContainer}>
-                          <img src="/images/github-profile.jpg"
+                          <img src="/projects/procedural-jenga-tower/thumbnail.gif"
                                className={`${stylesThumbnail.projectImage}`}/>
                           <div className={stylesThumbnail.projectImageButton}>
                               <div className={stylesThumbnail.projectImageButtonText}>
@@ -288,71 +353,12 @@ export default function Page() {
                               </div>
                           </div>
                       </Link>
-                      <div className={stylesThumbnail.projectTitle}>Github.com/benjaminyde</div>
+                      <div className={stylesThumbnail.projectTitle}>Procedural Jenga Tower</div>
                       <div className={stylesThumbnail.badges}>
-                          <span>Repositories</span>
-                          <span>C#</span>
-                          <span>C++</span>
-                      </div>
-                  </div>
-              </div>
-
-              <div className={stylesThumbnail.projectSectionEnd}></div>
-
-              {/* job experience */}
-
-              {/* header */}
-              <div className={stylesGlobal.whitespaceMedium}></div>
-              <div className={stylesGlobal.HeaderOrange}>Job Experience</div>
-              <div className={stylesGlobal.whitespaceRegular}></div>
-
-              {/* grid */}
-              <div className={stylesThumbnail.projectsGrid}>
-
-                  <div class={stylesThumbnail.project}>
-                      <Link href={"/"}
-                            className={stylesThumbnail.projectImageButtonContainer}>
-                          <img src="/projects/vintecc/Dual-Thumbnail.png"
-                               className={`${stylesThumbnail.projectImage}`}/>
-                          <div className={stylesThumbnail.projectImageButton}>
-                              <div className={stylesThumbnail.projectImageButtonText}>
-                                  Read More
-                              </div>
-                          </div>
-                      </Link>
-                      <div className={stylesThumbnail.projectTitle}>Vintecc - Simulation Engineer</div>
-                      <div className={stylesThumbnail.badges}>
-                          <span>C#</span>
-                          <span>Unity</span>
-                          <span>WPF</span>
-                          <span>Digital Twin</span>
-                          <span>Machines</span>
-                          <span>Co-Simulation</span>
-                          <span>Physics</span>
-                          <span>Sensors</span>
-                          <span>System Simulations</span>
+                          <span>Houdini</span>
                       </div>
                   </div>
 
-                  <div class={stylesThumbnail.project}>
-                      <Link href={"/"}
-                            className={stylesThumbnail.projectImageButtonContainer}>
-                          <img src="/projects/trifox/Thumbnail.jpg"
-                               className={`${stylesThumbnail.projectImage}`}/>
-                          <div className={stylesThumbnail.projectImageButton}>
-                              <div className={stylesThumbnail.projectImageButtonText}>
-                                  Read More
-                              </div>
-                          </div>
-                      </Link>
-                      <div className={stylesThumbnail.projectTitle}>Trifox Game</div>
-                      <div className={stylesThumbnail.badges}>
-                          <span>Internship</span>
-                          <span>Unity</span>
-                          <span>Level Design</span>
-                          <span>Gameplay</span>
-                      </div>
-                  </div>
               </div>
 
               <div className={stylesGlobal.whitespaceRegular}></div>

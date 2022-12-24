@@ -13,7 +13,7 @@ $color-font-desc: #fff;
   }
 
   .bodyRight {
-    width: 40%;
+    margin: auto 0 auto auto;
   }
 
   .title1 {
@@ -50,12 +50,8 @@ $color-font-desc: #fff;
 
   .profilePicture {
     border-radius: 50%;
-    width: 350px;
+    width: 400px;
     border: 4px solid #ddd;
-    margin-left: auto;
-    vertical-align: middle;
-    margin-right: 0;
-    float: right;
   }
 }
 

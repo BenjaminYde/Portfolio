@@ -10,7 +10,7 @@ export default function Page() {
                 <title>Blog</title>
             </Head>
 
-            <Card style={{ width: '18rem' }}>
+{/*            <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src="holder.js/100px180" />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
@@ -20,7 +20,7 @@ export default function Page() {
                     </Card.Text>
                     <Button variant="primary">Go somewhere</Button>
                 </Card.Body>
-            </Card>
+            </Card>*/}
         </div>
     );
 }
