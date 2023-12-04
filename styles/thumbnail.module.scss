@@ -98,10 +98,16 @@
   margin-bottom: 5px;
 }
 
-.project > .badges > .highlight {
+.project > .badges > .highlightgreen {
   color: palegreen;
   border: 1px solid palegreen;
 }
+
+.project > .badges > .highlightorange {
+  color: orange;
+  border: 1px solid orange;
+}
+
 
 .project > .badges > span:before {
   position: absolute;

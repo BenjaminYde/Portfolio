@@ -53,21 +53,19 @@ export default function Page() {
                           <div className={stylesIndex.tags}>
                               <ul>
                                   <li>C#</li>
-                                  <li>Procedural 3D</li>
-                                  <li>Houdini</li>
-                                  <li>Unity</li>
-                                  <li>Gameplay Programming</li>
-                                  <li>DOTS</li>
-                                  <li>UI / UX</li>
-                                  <li>WPF</li>
-                                  <li>Unit Testing</li>
-                                  <li>CI / CD</li>
+                                  <li>SideFX Houdini</li>
                                   <li>Python</li>
-                                  <li>Release Management</li>
+                                  <li>Unity</li>
                                   <li>3D Optimalization</li>
+                                  <li>DevOps</li>
+                                  <li>Unit Testing</li>
+                                  <li>CI/CD</li>
+                                  <li>DOTS</li>
+                                  <li>Gameplay Programming</li>
                                   <li>Unity Pixyz</li>
+                                  <li>WPF</li>
+                                  <li>UI/UX</li>
                                   <li>Level Design</li>
-                                  <li>3D Printing</li>
                               </ul>
                           </div>
                       </div>
@@ -78,16 +76,15 @@ export default function Page() {
                           <div className={stylesIndex.tags}>
                               <ul>
                                   <li>Git</li>
-                                  <li>Tortoise Git</li>
-                                  <li>Fork</li>
                                   <li>Github</li>
-                                  <li>Azure Devops</li>
-                                  <li>Photoshop</li>
-                                  <li>MS Office</li>
-                                  <li>Visual Studio</li>
+                                  <li>Linux</li>
+                                  <li>Docker</li>
+                                  <li>Azure</li>
                                   <li>Jetbrains Rider</li>
-                                  <li>Jetbrains CLion</li>
-                                  <li>Jetbrains Webstorm</li>
+                                  <li>Visual Studio Code</li>
+                                  <li>Photoshop</li>
+                                  <li>Azure Devops</li>
+                                  <li>MS Office</li>
                                   <li>Monday.com</li>
                               </ul>
                           </div>
@@ -132,6 +129,7 @@ export default function Page() {
                                   <li>DJ'ing</li>
                                   <li>Freestyle Ice Skating</li>
                                   <li>Organizing Cocktail Workshops</li>
+                                  <li>3D Printing</li>
                               </ul>
                           </div>
                       </div>*/}
@@ -155,6 +153,31 @@ export default function Page() {
               {/* grid */}
               <div className={stylesThumbnail.projectsGrid}>
 
+              <div class={stylesThumbnail.project}>
+                      <Link href={"/"}
+                            className={stylesThumbnail.projectImageButtonContainer}>
+                          <img src="/projects/vintecc/SyntheticDataVinteccLogo.jpg"
+                               className={`${stylesThumbnail.projectImage}`}/>
+                          <div className={stylesThumbnail.projectImageButton}>
+                              <div className={stylesThumbnail.projectImageButtonText}>
+                                  Read More
+                              </div>
+                          </div>
+                      </Link>
+                      <div className={stylesThumbnail.projectTitle}>Synthetic Data Engineer</div>
+                      <div className={stylesThumbnail.badges}>
+                          <span className={stylesThumbnail.highlightgreen}>Job</span>
+                          <span className={stylesThumbnail.highlightorange}>Jan 2023 - Now</span>
+                          <span>SideFX Houdini</span>
+                          <span>Python</span>
+                          <span>PDG</span>
+                          <span>Karma XPU Rendering</span>
+                          <span>Annotations</span>
+                          <span>Simulation</span>
+                          <span>Randomization</span>
+                      </div>
+                  </div>
+
                   <div class={stylesThumbnail.project}>
                       <Link href={"/"}
                             className={stylesThumbnail.projectImageButtonContainer}>
@@ -166,9 +189,10 @@ export default function Page() {
                               </div>
                           </div>
                       </Link>
-                      <div className={stylesThumbnail.projectTitle}>Vintecc - Simulation Engineer</div>
+                      <div className={stylesThumbnail.projectTitle}>Simulation Engineer</div>
                       <div className={stylesThumbnail.badges}>
-                          <span className={stylesThumbnail.highlight}>Job</span>
+                          <span className={stylesThumbnail.highlightgreen}>Job</span>
+                          <span className={stylesThumbnail.highlightorange}>Feb 2020 - Jan 2023</span>
                           <span>C#</span>
                           <span>Unity</span>
                           <span>WPF</span>
@@ -194,10 +218,13 @@ export default function Page() {
                       </Link>
                       <div className={stylesThumbnail.projectTitle}>Trifox Game</div>
                       <div className={stylesThumbnail.badges}>
-                          <span className={stylesThumbnail.highlight}>Internship</span>
+                          <span className={stylesThumbnail.highlightgreen}>Internship</span>
+                          <span className={stylesThumbnail.highlightorange}>Feb 2019 - Jun 2019</span>
                           <span>Unity</span>
                           <span>Level Design</span>
                           <span>Gameplay</span>
+                          <span>Prototyping</span>
+                          <span>UX</span>
                       </div>
                   </div>
 
@@ -214,9 +241,12 @@ export default function Page() {
                       </Link>
                       <div className={stylesThumbnail.projectTitle}>Github.com/benjaminyde</div>
                       <div className={stylesThumbnail.badges}>
-                          <span className={stylesThumbnail.highlight}>Personal</span>
+                          <span className={stylesThumbnail.highlightgreen}>Personal</span>
                           <span>C#</span>
                           <span>C++</span>
+                          <span>Python</span>
+                          <span>Houdini</span>
+                          <span>Guides</span>
                       </div>
                   </div>
               </div>
