@@ -122,17 +122,17 @@ export default function Page() {
                           </div>
                       </div>
                       {/* tags */}
-{/*                      <div className={stylesIndex.tagCollection}>
+                      <div className={stylesIndex.tagCollection}>
                           <div className={stylesIndex.tagCollectionHeader}>Hobbies</div>
                           <div className={stylesIndex.tags}>
                               <ul>
                                   <li>DJ'ing</li>
                                   <li>Freestyle Ice Skating</li>
-                                  <li>Organizing Cocktail Workshops</li>
+                                  <li>Cocktail Workshops</li>
                                   <li>3D Printing</li>
                               </ul>
                           </div>
-                      </div>*/}
+                      </div>
 
                   </div>
 
@@ -174,6 +174,7 @@ export default function Page() {
                           <span>Karma XPU Rendering</span>
                           <span>Annotations</span>
                           <span>Simulation</span>
+                          <span>Procedural</span>
                           <span>Randomization</span>
                       </div>
                   </div>
